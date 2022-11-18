@@ -59,6 +59,9 @@ img {
 
 /* Header */
 .header-section {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #ececec;
@@ -123,7 +126,7 @@ li > .contact {
 .section-hero {
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
+  max-width: 1600px;
   background-color: var(--bkg-block-color);
   text-align: center;
 }
@@ -165,16 +168,16 @@ li > .contact {
 
 /* Особливості */
 .visually-hidden {
-position: absolute;
-width: 1px;
-height: 1px;
-margin: -1px;
-border: 0;
-padding: 0;
-white-space: nowrap;
-clip-path: inset(100%);
-clip: rect(0 0 0 0);
-overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .feature-list {
   display: flex;
@@ -216,6 +219,9 @@ overflow: hidden;
 
 /* Команда */
 .section-team {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
   background-color: var(--button-color);
 }
 .team-list {
@@ -264,6 +270,9 @@ overflow: hidden;
   line-height: 1.2;
 }
 .footer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--bkg-block-color);
@@ -276,8 +285,6 @@ overflow: hidden;
 .footer-list .item:not(:last-child) {
   margin-bottom: 12px;
 }
-
-
 
 /* Portfolio */
 .button-list {
